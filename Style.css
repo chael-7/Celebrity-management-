@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #ff0000, #ffcc00);
+    color: white;
+}
+
+header {
+    background: blue;
+    padding: 20px;
+    color: gold;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-container img {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+footer {
+    background: black;
+    padding: 10px;
+    color: white;
+}
