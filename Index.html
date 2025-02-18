@@ -1,0 +1,98 @@
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Celebrity Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <header>
+        <h1>Celebrity Management</h1>
+    </header>
+
+    <!-- Sign-Up Form -->
+    <section id="signup">
+        <h2>Sign Up for VIP Membership ($900)</h2>
+        <form id="signupForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <input type="number" id="age" placeholder="Age" required>
+            <input type="text" id="location" placeholder="Location" required>
+            <input type="text" id="address" placeholder="House Address" required>
+            <input type="text" id="purpose" placeholder="Purpose of Acquaintance" required>
+            <button type="button" id="signupButton">Register & Verify Email</button>
+        </form>
+        <p id="signupMessage"></p>
+    </section>
+
+    <!-- Celebrity Gallery -->
+    <section id="gallery">
+        <h2>Top Celebrities</h2>
+        <div class="gallery-container">
+            <!-- 15 Female Celebrity Images -->
+            <img src="images/female1.jpg" alt="Female Celebrity 1">
+            <img src="images/female2.jpg" alt="Female Celebrity 2">
+            <img src="images/female3.jpg" alt="Female Celebrity 3">
+            <img src="images/female4.jpg" alt="Female Celebrity 4">
+            <img src="images/female5.jpg" alt="Female Celebrity 5">
+            <img src="images/female6.jpg" alt="Female Celebrity 6">
+            <img src="images/female7.jpg" alt="Female Celebrity 7">
+            <img src="images/female8.jpg" alt="Female Celebrity 8">
+            <img src="images/female9.jpg" alt="Female Celebrity 9">
+            <img src="images/female10.jpg" alt="Female Celebrity 10">
+            <img src="images/female11.jpg" alt="Female Celebrity 11">
+            <img src="images/female12.jpg" alt="Female Celebrity 12">
+            <img src="images/female13.jpg" alt="Female Celebrity 13">
+            <img src="images/female14.jpg" alt="Female Celebrity 14">
+            <img src="images/female15.jpg" alt="Female Celebrity 15">
+
+            <!-- 10 Male Celebrity Images -->
+            <img src="images/male1.jpg" alt="Male Celebrity 1">
+            <img src="images/male2.jpg" alt="Male Celebrity 2">
+            <img src="images/male3.jpg" alt="Male Celebrity 3">
+            <img src="images/male4.jpg" alt="Male Celebrity 4">
+            <img src="images/male5.jpg" alt="Male Celebrity 5">
+            <img src="images/male6.jpg" alt="Male Celebrity 6">
+            <img src="images/male7.jpg" alt="Male Celebrity 7">
+            <img src="images/male8.jpg" alt="Male Celebrity 8">
+            <img src="images/male9.jpg" alt="Male Celebrity 9">
+            <img src="images/male10.jpg" alt="Male Celebrity 10">
+        </div>
+    </section>
+
+    <!-- Booking System -->
+    <section id="booking">
+        <h2>Book a Celebrity for an Event</h2>
+        <form id="bookingForm">
+            <input type="text" id="eventName" placeholder="Event Name" required>
+            <input type="text" id="celebrityName" placeholder="Celebrity Name" required>
+            <input type="date" id="eventDate" required>
+            <button type="submit">Request Booking</button>
+        </form>
+        <p id="bookingMessage"></p>
+    </section>
+
+    <!-- Subscription Model -->
+    <section id="subscription">
+        <h2>Subscribe for Exclusive Content</h2>
+        <button id="subscribeButton">Subscribe ($150/month)</button>
+    </section>
+
+    <!-- Privacy Policy -->
+    <section id="privacy-policy">
+        <h2>Privacy Policy</h2>
+        <p>Your privacy is our priority. We do not share your personal details with third parties.</p>
+    </section>
+
+    <!-- Celebrity Safety Undertaking -->
+    <section id="safety">
+        <h2>Celebrity Safety Undertaking</h2>
+        <p>We ensure that all celebrities working with us are protected and respected any harm will be reported to be C.I.A agency.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Celebrity Management | <a href="#privacy-policy">Privacy Policy</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
